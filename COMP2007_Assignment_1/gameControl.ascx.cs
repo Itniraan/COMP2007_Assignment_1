@@ -13,5 +13,34 @@ namespace COMP2007_Assignment_1
         {
 
         }
+
+        public String winLossResult
+        {
+            get
+            {
+                return rblResult.SelectedValue;
+            }
+        }
+        public Decimal pointsScoredResult
+        {
+            get
+            {
+                return Convert.ToDecimal(txtPointsScored.Text);
+            }
+        }
+        public Decimal pointAllowedResult
+        {
+            get
+            {
+                return Convert.ToDecimal(txtPointsAllowed.Text);
+            }
+        }
+        public Decimal spectatorsResult
+        {
+            get
+            {
+                return Convert.ToDecimal(txtSpectators.Text);
+            }
+        }
     }
 }

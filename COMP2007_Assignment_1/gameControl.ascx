@@ -29,4 +29,5 @@
         <asp:RequiredFieldValidator runat="server" ErrorMessage="This field is required!" CssClass="label label-danger" ControlToValidate="txtSpectators" Display="Dynamic"></asp:RequiredFieldValidator>
         <asp:RangeValidator ID="RangeValidator3" runat="server" ErrorMessage="This field must be numeric, and must be between 0 and 10,000" CssClass="label label-danger" ControlToValidate="txtSpectators" Display="Dynamic" MinimumValue="0" MaximumValue="10000" Type="Integer"></asp:RangeValidator>
     </div>
+    <br />
 </asp:Panel>

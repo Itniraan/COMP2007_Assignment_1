@@ -2,22 +2,25 @@
 <%@ Register Src="~/gameControl.ascx" TagPrefix="uc1" TagName="gameControl" %>
 
 <asp:Content ID="content2" ContentPlaceholderID="ContentPlaceHolder1" runat="server">
-    <div>
+    <div class="col-lg-6">
         <uc1:gameControl runat="server" id="gameControl1" />
     </div>
-    <div>
+    <div class="col-lg-6">
         <uc1:gameControl runat="server" id="gameControl2" />
     </div>
-    <div>
+    <div class="col-lg-6">
         <uc1:gameControl runat="server" id="gameControl3" />
     </div>
-    <div>
+    <div class="col-lg-6">
         <uc1:gameControl runat="server" id="gameControl4" />
     </div>
     <div>
         <asp:Button ID="btnSummary" Text="Summary" runat="server" OnClick="btnSummary_Click" />
     </div>
     <asp:Panel ID="pnlSummary" runat="server" Visible="false">
+        <div>
+            <h2>Summary: </h2>
+        </div>
         <div>
             Games Won:
             <asp:Label ID="lblGamesWon" runat="server"></asp:Label>
