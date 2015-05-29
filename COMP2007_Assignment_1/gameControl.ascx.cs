@@ -7,14 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace COMP2007_Assignment_1
 {
-    public partial class _default : System.Web.UI.Page
+    public partial class gameControl : System.Web.UI.UserControl
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void btnSummary_Click(object sender, EventArgs e)
         {
 
         }

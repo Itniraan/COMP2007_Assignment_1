@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="default.aspx" />
+    <Content Include="gameControl.ascx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -80,9 +81,17 @@
     </Compile>
     <Compile Include="GameCalculator.Master.cs">
       <DependentUpon>GameCalculator.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="GameCalculator.Master.designer.cs">
       <DependentUpon>GameCalculator.Master</DependentUpon>
+    </Compile>
+    <Compile Include="gameControl.ascx.cs">
+      <DependentUpon>gameControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gameControl.ascx.designer.cs">
+      <DependentUpon>gameControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
