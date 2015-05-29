@@ -17,6 +17,9 @@ namespace COMP2007_Assignment_1
         protected void btnSummary_Click(object sender, EventArgs e)
         {
 
+
+            // Make the summary panel visible, once all calculations are complete
+            pnlSummary.Visible = true;
         }
     }
 }

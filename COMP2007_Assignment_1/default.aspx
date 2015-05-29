@@ -17,4 +17,38 @@
     <div>
         <asp:Button ID="btnSummary" Text="Summary" runat="server" OnClick="btnSummary_Click" />
     </div>
+    <asp:Panel ID="pnlSummary" runat="server" Visible="false">
+        <div>
+            Games Won:
+            <asp:Label ID="lblGamesWon" runat="server"></asp:Label>
+        </div>
+        <div>
+            Games Lost:
+            <asp:Label ID="lblGamesLost" runat="server"></asp:Label>
+        </div>
+        <div>
+            Win Percentage:
+        <asp:Label ID="lblWinPercent" runat="server"></asp:Label>
+        </div>
+        <div>
+            Total Points Scored:
+                <asp:Label ID="lblTotalPointsScored" runat="server"></asp:Label>
+        </div>
+        <div>
+            Total Points Allowed:
+            <asp:Label ID="lblTotalPointsAllowed" runat="server"></asp:Label>
+        </div>
+        <div>
+            Point Differential:
+            <asp:Label ID="lblPointDifferential" runat="server"></asp:Label>
+        </div>
+        <div>
+            Total Spectators:
+            <asp:Label ID="lblTotalSpectators" runat="server"></asp:Label>
+        </div>
+        <div>
+            Average # of Spectators:
+            <asp:Label ID="lblAverageSpectators" runat="server"></asp:Label>
+        </div>
+    </asp:Panel>
 </asp:Content>
