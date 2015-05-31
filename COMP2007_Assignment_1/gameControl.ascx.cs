@@ -16,6 +16,7 @@ namespace COMP2007_Assignment_1
 
         public String winLossResult
         {
+            // Get selected value of win/loss radio button group
             get
             {
                 return rblResult.SelectedValue;
@@ -23,6 +24,7 @@ namespace COMP2007_Assignment_1
         }
         public Decimal pointsScoredResult
         {
+            // Get value in points scored text box
             get
             {
                 return Convert.ToDecimal(txtPointsScored.Text);
@@ -30,6 +32,7 @@ namespace COMP2007_Assignment_1
         }
         public Decimal pointAllowedResult
         {
+            // Get value in points allowed text box
             get
             {
                 return Convert.ToDecimal(txtPointsAllowed.Text);
@@ -37,6 +40,7 @@ namespace COMP2007_Assignment_1
         }
         public Decimal spectatorsResult
         {
+            // Get value in spectators text box
             get
             {
                 return Convert.ToDecimal(txtSpectators.Text);

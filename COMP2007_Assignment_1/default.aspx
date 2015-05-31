@@ -15,7 +15,7 @@
         <uc1:gameControl runat="server" id="gameControl4" />
     </div>
     <div>
-        <asp:Button ID="btnSummary" Text="Summary" runat="server" OnClick="btnSummary_Click" />
+        <asp:Button ID="btnSummary" Text="Summary" CSSClass="btn btn-default" runat="server" OnClick="btnSummary_Click" />
     </div>
     <asp:Panel ID="pnlSummary" runat="server" Visible="false">
         <div>
