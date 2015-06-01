@@ -22,14 +22,17 @@
 <body class="bg-success">
     <div class="container-fluid">
         <form id="gameForm" runat="server">
+            <!-- Header Section -->
             <header>
                 <h1>Game Calculator</h1>
             </header>
+            <!-- Content Section -->
             <div class="form-group">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
             </div>
         </form>
+        <!-- Footer Section -->
         <footer>
             <small>Copyright @ Blake Murdock, 2015
             </small>
